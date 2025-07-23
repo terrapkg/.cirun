@@ -2,7 +2,7 @@ runners:
   - name: azure-cpu-runner-spotinstance
     cloud: azure
     instance_type: Standard_D8ads_v6
-    machine_image: Canonical:UbuntuServer:24.04-LTS:latest
+    machine_image: Canonical:ubuntu-24_04-lts:server:latest
     preemptible: false
     labels:
       - x86-64-lg-testing
