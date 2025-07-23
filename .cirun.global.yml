@@ -3,6 +3,6 @@ runners:
     cloud: azure
     instance_type: Standard_D8ads_v6
     machine_image: Canonical:UbuntuServer:24.04-LTS:latest
-    preemptible: true
+    preemptible: false
     labels:
       - x86-64-lg-testing
