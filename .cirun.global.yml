@@ -1,7 +1,7 @@
 runners:
   - name: azure-x86-64-lg-testing
     cloud: azure
-    instance_type: Standard_D8ads_v6
+    instance_type: Standard_D8as_v6
     machine_image: "/subscriptions/9477dd74-a441-4f04-9565-08c4a3b0a245/resourceGroups/CUSTOM-IMAGE_GROUP/providers/Microsoft.Compute/images/cirun-custom-image"
     region: westus2
     labels:
