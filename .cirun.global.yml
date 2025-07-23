@@ -4,4 +4,4 @@ runners:
     instance_type: Standard_D8ads_v6
     machine_image: Canonical:ubuntu-24_04-lts:server:latest
     labels:
-      - x86-64-lg-testing
+      - cirun-x86-64-lg-testing
