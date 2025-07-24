@@ -2,7 +2,7 @@ runners:
   - name: azure-x86-64-lg-testing
     cloud: azure
     instance_type: Standard_D8as_v6
-    machine_image: "/subscriptions/9477dd74-a441-4f04-9565-08c4a3b0a245/resourceGroups/custom-image_group/providers/Microsoft.Compute/galleries/cirun/images/ubuntu-24-04-lts/versions/0.0.1"
+    machine_image: "/subscriptions/9477dd74-a441-4f04-9565-08c4a3b0a245/resourcegroups/custom-image_group/providers/Microsoft.Compute/galleries/Runners/images/cirun-ubuntu24-04/versions/0.0.1"
     region: westus2
     labels:
       - cirun-x86-64-lg-testing
