@@ -9,7 +9,7 @@ runners:
   - name: azure-arm64-lg
     cloud: azure
     instance_type: Standard_D16ps_v6
-    machine_image: "/subscriptions/9477dd74-a441-4f04-9565-08c4a3b0a245/resourcegroups/custom-image_group/providers/Microsoft.Compute/galleries/Runners/images/ubuntu-24-04-arm64/versions/0.0.1"
+    machine_image: "/subscriptions/9477dd74-a441-4f04-9565-08c4a3b0a245/resourcegroups/custom-image_group/providers/Microsoft.Compute/galleries/Runners/images/cirun-ubuntu24-04-arm64/versions/0.0.1"
     region: westus2
     labels:
       - cirun-arm64-lg
