@@ -6,6 +6,10 @@ runners:
     region: westus2
     labels:
       - cirun-x86-64-lg
+    extra_config:
+      storageProfile:
+        osDisk:
+          diskSizeGB: 256
   - name: azure-arm64-lg
     cloud: azure
     instance_type: Standard_D32ps_v6
@@ -13,3 +17,7 @@ runners:
     region: westus2
     labels:
       - cirun-arm64-lg
+    extra_config:
+      storageProfile:
+        osDisk:
+          diskSizeGB: 256
